@@ -10,7 +10,7 @@ const ProjectCard = ({ id, image, title, description }) => {
       <div className={s.cardWrapper}>
         <Link
           to={{
-            pathname: `/project/${id}`,
+            pathname: `/furkanaydemirportfolio/project/${id}`,
             state: {
               background: location,
             },
